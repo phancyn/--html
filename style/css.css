@@ -1,0 +1,84 @@
+a.button 
+{
+    display: inline-block;
+    background: #ff00d4;
+    color: #ffffff;
+    padding: 6px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-family: Tahoma;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 100;
+  }
+  a.button:hover {
+    padding:8px;
+  }
+  div {
+    margin: 24px;
+    text-align: left;
+  }
+
+  a.button2 
+  {
+      display: inline-block;
+      background: #ff00d4;
+      color: #ffffff;
+      padding: 6px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-family: Tahoma;
+      font-size: 18px;
+      line-height: 1;
+      font-weight: 100;
+      position: absolute;
+      left: 190px;
+      
+    } 
+     a.button2:hover {
+        padding:8px;
+      }
+
+.address {
+    
+    font-family:Verdana;
+    position: absolute;
+    bottom: 0;
+}
+
+.h1 {
+    font-family: Verdana;
+}
+
+.div-wrapper {
+    position: relative;
+    height: 300px;
+    width: 300px;
+}
+
+.div-wrapper img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+
+/* внешние границы таблицы серого цвета толщиной 1px */
+table {
+    border: 1px solid rgb(0, 0, 0);
+    width: 100%;
+ }
+ /* границы ячеек первого ряда таблицы */
+ th {
+    border: 1px solid rgb(0, 0, 0);
+ }
+ /* границы ячеек тела таблицы */
+ td {
+    border: 1px solid rgb(0, 0, 0);
+ }
+
+ .text {
+    position: absolute;
+    left: 190px;
+    font-family: Verdana;
+ }
